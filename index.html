@@ -39,7 +39,7 @@
                             <svg class="social-tel">
                                 <use href="./images/symbol.svg#icon-phone">
                                 </use>
-                            </svg>+380961111111</a> </li>
+                            </svg>+38 099 111 11 11</a> </li>
                     </ul>
             </div>
         </header>
@@ -52,12 +52,45 @@
                     <button class="order-button" type="button" data-modal-open>Заказать услугу</button>
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal">
-                            <p></p>
+                            
                             <button type="button" class="model-close-button" data-modal-close>
                                 <svg class="model-close-icon">
                                     <use href="./images/symbol.svg#icon-close"></use>
                                 </svg>
                             </button>
+                            <form action="#" class="modal-form">
+                                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                                <label for="" class="modal-form-input-label">Имя
+                                    <span class="modal-form-input-wrapper">
+                                    <input type="text" name="user-name" class="modal-form-input">
+                                    <svg class="modal-icon">
+                                        <use href="./images/symbol.svg#icon-person-black"></use>
+                                    </svg>
+                                    </span>
+                                </label>
+                                <label for="" class="modal-form-input-label">Телефон
+                                    <span class="modal-form-input-wrapper">
+                                    <input type="tel" name="user-phone" class="modal-form-input">
+                                    <svg class="modal-icon">
+                                        <use href="./images/symbol.svg#icon-phone-black"></use>
+                                    </svg>
+                                    </span>
+                                    </label>
+                                <label for="" class="modal-form-input-label">Почта
+                                    <span class="modal-form-input-wrapper">
+                                    <input type="email" name="user-email" class="modal-form-input">
+                                    <svg class="modal-icon">
+                                        <use href="./images/symbol.svg#icon-email-black"></use>
+                                    </svg>
+                                    </span>
+                                    </label>
+                                <label for="" class="modal-form-input-label">Комментарий</label>
+                                    <textarea name="" id="" name="user-massage" placeholder="Введите текст" class="modal-form-message"></textarea>
+                                    <input type="checkbox" name="user-policy" id="policy-check" class="modal-form-check-policy visually-hidden">
+                                <label for="policy-check" class="modal-form-label-policy">
+                                    Соглашаюсь с рассылкой и принимаю <a class="agreement-link"href="#">Условия договора</a></label>
+                                <button type="submit" class="modal-form-btn">Отправить</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -321,7 +354,7 @@
                                         href="https://goo.gl/maps/Lhu3DwiovZqrXFvk8">г. Киев, пр-т Леси Украинки, 26</a></li>
                                 <li class="contact-footer-item"><a class="contact-footer-link2 link"
                                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                                <li class="contact-footer-item"><a class="contact-footer-link2 link" href="tel:+380961111111">+380961111111</a>
+                                <li class="contact-footer-item"><a class="contact-footer-link2 link" href="tel:+380961111111">+38 099 111 11 11</a>
                                 </li>
                             </ul>
                         </address>
@@ -359,7 +392,18 @@
                             </li>
                     </ul>
                 </div>
-          
+                <div class="footer-submit">
+                    <h2 class="submit-title">Подпишитесь на рассылку</h2>
+                    <form action="#" class="footer-submit-form">
+                        <input type="email" placeholder="E-mail" class="footer-submit-input" name="user-email" required="">
+                        <button class="footer-btn" type="submit">
+                            Подписаться
+                            <svg height="24" width="24" class="submit-icon">
+                                <use href="./images/symbol.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
             </div>
         </footer>
         <script src="./js/modal.js"></script>
