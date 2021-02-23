@@ -459,6 +459,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.client-item {
+  display: flex;
+  width: 170px;
+  height: 90px;
+}
 .client-link {
   display: flex;
   justify-content: center;
@@ -485,11 +490,7 @@ body {
   fill: #afb1b8;
   transition: fill var(--time-hover) cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-item {
-  width: 170px;
-  height: 90px;
-  display: flex;
-}
+
 /*=============END CLIENT SECTION===========*/
 /*=============CONTACT-FOOTER===========*/
 .contact-footer .container {
